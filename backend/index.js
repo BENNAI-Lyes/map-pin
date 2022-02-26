@@ -9,6 +9,7 @@ const multer = require("multer");
 
 const userRouts = require("./routes/user");
 const authRouts = require("./routes/auth");
+const pinRouts = require("./routes/pin");
 
 app.use(helmet());
 app.use(morgan("common"));
@@ -29,7 +30,8 @@ mongoose
 
 app.use("/api/auth", authRouts);
 app.use("/api/user", userRouts);
+app.use("/api/pin", pinRouts);
 
-app.listen(8800, () => {
+app.listen(8880, () => {
   console.log("post running on port 8800");
 });
