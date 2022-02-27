@@ -18,7 +18,11 @@ const PinSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-    long: {
+    lng: {
+      type: Number,
+      required: true,
+    },
+    review: {
       type: Number,
       required: true,
     },

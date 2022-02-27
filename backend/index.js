@@ -32,6 +32,6 @@ app.use("/api/auth", authRouts);
 app.use("/api/user", userRouts);
 app.use("/api/pin", pinRouts);
 
-app.listen(8880, () => {
+app.listen(8800, () => {
   console.log("post running on port 8800");
 });
