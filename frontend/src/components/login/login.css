@@ -1,0 +1,71 @@
+.loginWrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #111;
+}
+
+.loginTitle {
+  font-size: 60px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.loginFormLabel {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.loginFormInput {
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 300px;
+}
+
+.loginFormInput:focus {
+  outline: none;
+}
+
+.loginSubmit {
+  color: #fff;
+  background-color: tomato;
+  padding: 7px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  width: 80px;
+  margin: auto;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  color: #fff;
+  background-color: #333;
+  padding: 7px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+}

@@ -1,0 +1,87 @@
+.registerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #333;
+  height: 100vh;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.registerFormLabel {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.registerFormInput {
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 300px;
+}
+
+.registerFormInput:focus {
+  outline: none;
+}
+
+.registerSubmit {
+  color: #fff;
+  background-color: teal;
+  padding: 7px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  color: #fff;
+  background-color: #333;
+  padding: 7px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+}
+
+.loginError,
+.loginSuccess {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.loginSuccess {
+  color: green;
+}
+
+.closeForm {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: teal;
+  font-size: 25px;
+  font-weight: 700;
+}

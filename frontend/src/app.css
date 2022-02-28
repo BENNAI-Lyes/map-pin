@@ -2,3 +2,95 @@
   height: 100vh;
   width: 100vw;
 }
+
+.popup-card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+}
+
+.popup-card-label {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(133, 87, 79);
+  width: max-content;
+  color: rgb(133, 87, 79);
+}
+.star {
+  color: gold;
+}
+
+.popup-card-text {
+  font-size: 13px;
+  color: #333;
+}
+.date {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.popup-card-text-input,
+.popup-card-textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  padding-left: 0;
+  margin-top: 5px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.popup-card-textarea {
+  height: 80px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.popup-card-text-input:focus,
+.popup-card-textarea:focus,
+.select:focus {
+  outline: none;
+}
+.select {
+  margin: 10px 0;
+  border: none;
+  padding: 2px 0;
+  border-bottom: 1px solid #555;
+}
+
+.savePinButton {
+  width: 75px;
+  margin: auto;
+  padding: 7px 0;
+  color: #fff;
+  background-color: tomato;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.buttonLogout,
+.buttons {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+}
+
+.button {
+  padding: 8px 20px;
+  margin-left: 15px;
+  color: #fff;
+  background-color: tomato;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+.buttonRegister {
+  background-color: #20b2aa;
+}
